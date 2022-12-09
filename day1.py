@@ -4,7 +4,7 @@ f = open("day1.txt", "r", encoding="utf-8")
 lines = f.readlines()
 f.close()
 
-calories = []
+calories: list[int] = []
 temp: int = 0
 
 for line in lines:
